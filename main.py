@@ -93,7 +93,7 @@ root.geometry(f"{window_width}x{window_height}+{x}+{y}")
 
 #Canvas creation
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
-tomato_bg = PhotoImage(file="tomato.png") #adding image to canvas
+tomato_bg = PhotoImage(file="asset/tomato.png") #adding image to canvas
 canvas.create_image(100, 112, image=tomato_bg)
 timer_canvas = canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 30, "bold"))
 canvas.grid(column=1, row=1)
